@@ -8,20 +8,37 @@ Project ini menggunakan:
 - Database: MySQL
 - Local Environment: Laragon
 
-![storsync-billing](docs/images/loading.png)
-
 ---
 
 ## Key Features
 
-- Dashboard statistik (Total Customers, Active Subscriptions, Pending Invoices, Total Revenue)
-- Manajemen Customers
-- Manajemen Packages
-- Manajemen Subscriptions
-- Manajemen Invoices
-- Manajemen Payments
-- System Status Monitoring
 - Authentication (Login / Logout)
+
+  ![storsync-billing](docs/images/login.png)
+
+- Dashboard statistik (Total Customers, Active Subscriptions, Pending Invoices, Total Revenue)
+  
+  ![storsync-billing](docs/images/dashboard.png)
+  
+- Manajemen Customers
+
+  ![storsync-billing](docs/images/customers.png)
+  
+- Manajemen Packages
+
+  ![storsync-billing](docs/images/packages.png)
+  
+- Manajemen Subscriptions
+
+  ![storsync-billing](docs/images/subscriptions.png)
+  
+- Manajemen Invoices
+
+  ![storsync-billing](docs/images/invoices.png)
+  
+- Manajemen Payments
+
+  ![storsync-billing](docs/images/payments.png)
 
 ---
 
