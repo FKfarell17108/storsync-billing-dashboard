@@ -1,8 +1,8 @@
 # StorSync Billing Dashboard
 
-Manajemen billing untuk layanan internet / ISP yang memungkinkan pengelolaan pelanggan, paket, langganan, invoice, dan pembayaran.
+Billing management for internet/ISP services that enables customer, package, subscription, invoice, and payment management.
 
-Project ini menggunakan:
+This project uses:
 - Backend: Laravel (PHP)
 - Frontend: Next.js
 - Database: MySQL
@@ -16,29 +16,29 @@ Project ini menggunakan:
 
   ![storsync-billing](docs/images/login.png)
 
-- Dashboard statistik (Total Customers, Active Subscriptions, Pending Invoices, Total Revenue)
+- Statistics dashboard (Total Customers, Active Subscriptions, Pending Invoices, Total Revenue)
   
   ![storsync-billing](docs/images/dashboard.png)
   
-- Manajemen Customers
+- Customer Management
 
   ![storsync-billing](docs/images/customers.png)
   
-- Manajemen Packages
+- Package Management
 
   ![storsync-billing](docs/images/packages.png)
   
-- Manajemen Subscriptions
+- Subscription Management
 
   ![storsync-billing](docs/images/subscriptions.png)
   
-- Manajemen Invoices
+- Invoice Management
 
-  ![storsync-billing](docs/images/invoices.png)
-  
-- Manajemen Payments
+![storsync-billing](docs/images/invoices.png)
 
-  ![storsync-billing](docs/images/payments.png)
+- Payment Management
+
+![storsync-billing](docs/images/payments.png)
 
 ---
 
@@ -56,12 +56,12 @@ cd backend
 composer install
 ```
 
-3. **Copy File Environment**
+3. **Copy Environment File**
 ```bash
 cp .env.example .env
 ```
 
-4. **Konfigurasi Database (.env)**
+4. **Configure Database (.env)**
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -71,14 +71,14 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-5. **Generate Key, Migration & Seeder, Jalankan Backend**
+5. **Generate Key, Migration & Seeder, Run Backend**
 ```bash
 php artisan key:generate
 php artisan migrate --seed
 php artisan serve
 ```
 
-Backend akan berjalan di:
+The backend will run on:
 ```bash
 http://127.0.0.1:8000
 ```
@@ -89,16 +89,16 @@ cd frontend
 npm install
 ```
 
-7. **Buat file .env.local**
+7. **Create a .env.local file**
 ```bash
 NEXT_PUBLIC_API_URL=http://127.0.0.1:8000/api
 ```
 
-8. **Jalankan Frontend**
+8. **Run the Frontend**
 ```bash
 npm run dev
 ```
-Frontend akan berjalan di:
+The frontend will run at:
 ```bash
 http://localhost:3000
 ```
